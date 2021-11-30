@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.passvault">
    <application
-        android:label="passvault"
-        android:icon="@mipmap/ic_launcher">
+        android:label="PasswordVault"
+        android:icon="@mipmap/appicn">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
