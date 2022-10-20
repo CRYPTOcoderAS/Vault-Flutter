@@ -77,7 +77,7 @@ class _AboutScreenState extends State<AboutScreen> {
                     Text(
                       'Akshat Sachan',
                       style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.limeAccent,
                           fontFamily: 'GochiHand',
                           fontSize: 20),
                     ),
