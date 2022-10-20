@@ -59,7 +59,7 @@ class _AboutScreenState extends State<AboutScreen> {
                           },
                           child: Image(
                             height: 25,
-                            image: AssetImage('assets/github.png'),
+                            image: AssetImage('assets/git1.png'),
                           ),
                         ),
                         SizedBox(width: 10),
@@ -69,7 +69,7 @@ class _AboutScreenState extends State<AboutScreen> {
                           },
                           child: Image(
                             height: 22,
-                            image: AssetImage('assets/web.png'),
+                            image: AssetImage('assets/web1.png'),
                           ),
                         ),
                       ],
@@ -104,7 +104,7 @@ class _AboutScreenState extends State<AboutScreen> {
 }
 
 void _launchURL() async {
-  const url = 'https://github.com/CRYPTOcoderAS';
+  const url = 'https://getsachan.co';
   if (await canLaunch(url)) {
     await launch(url);
   } else {
@@ -113,7 +113,7 @@ void _launchURL() async {
 }
 
 void _launchURL1() async {
-  const url = 'https://sachan1.netlify.app/';
+  const url = 'https://getsachan.co/';
   if (await canLaunch(url)) {
     await launch(url);
   } else {

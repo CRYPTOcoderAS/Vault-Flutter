@@ -165,8 +165,8 @@ class _HomeScreenState extends State<HomeScreen> {
                               ? 'No Username'
                               : passwords[index].username,
                           style: TextStyle(
-                            color: Colors.red,
-                            fontWeight: FontWeight.w500,
+                            color: Colors.yellow,
+                            fontWeight: FontWeight.w700,
                           ),
                         ),
                         onTap: () => Navigator.push(
